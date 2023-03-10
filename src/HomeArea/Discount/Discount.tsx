@@ -9,7 +9,7 @@ const Discount: FC<DiscountProps> = () => {
 
   return (
 
-    <div className={styles.Discount}>
+    <div className={`box ${styles.Discount}`}>
 
 
     <span>Only now - {percent}% discount on all products!</span>
