@@ -1,14 +1,18 @@
 import React, { FC } from 'react';
+import Header from './Header/Header';
+import Footer from './Footer/Footer';
+import Main from './Main/Main';
+import Aside from './Aside/Aside';
 import styles from './LayoutArea.module.scss';
 
 interface LayoutAreaProps {}
 
 const LayoutArea: FC<LayoutAreaProps> = () => (
   <div className={styles.LayoutArea}>
-    <header>Header</header>
-    <aside>Aside</aside>
-    <main>Main</main>
-    <footer>Footer</footer>
+    <Header/>
+    <Aside/>
+    <Main/>
+    <Footer/>
   </div>
 );
 
